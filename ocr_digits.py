@@ -5,10 +5,7 @@
 # import the necessary packages
 import pytesseract
 import argparse
-import cimport pytesseract
-
-# Specify the path to the Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+import cv2
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
