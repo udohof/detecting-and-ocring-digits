@@ -44,7 +44,7 @@ options = ""
 # check to see if *digit only* OCR should be performed, and if so,
 # update our Tesseract OCR options
 if args["digits"] > 0:
-	options = "--oem 3 --psm 6 outputbase digits"
+	options = "--oem 3 --psm 8 outputbase digits"
 
 # OCR the input image using Tesseract
 text = pytesseract.image_to_string(eroded, config=options)
