@@ -1,0 +1,28 @@
+# OCR Digits
+
+Dieses Projekt verwendet Tesseract-OCR, um Text und Ziffern aus Bildern zu extrahieren.
+
+## Voraussetzungen
+
+- Python 3.x
+- Tesseract-OCR
+
+## Installation
+
+### 1. Python installieren
+
+Stellen Sie sicher, dass Python 3.x auf Ihrem System installiert ist. Sie können Python von der offiziellen [Python-Website](https://www.python.org/downloads/) herunterladen und installieren. Stellen Sie sicher, dass Sie die Option "Add Python to PATH" während der Installation auswählen.
+
+### 2. Virtuelle Umgebung einrichten
+
+Öffnen Sie eine Eingabeaufforderung oder ein Terminal und navigieren Sie zu dem Verzeichnis, in dem Sie das Projekt speichern möchten. Führen Sie dann die folgenden Befehle aus:
+
+```sh
+# Erstellen Sie eine virtuelle Umgebung
+python -m venv env
+
+# Aktivieren Sie die virtuelle Umgebung (Windows)
+.\env\Scripts\activate
+
+# Aktivieren Sie die virtuelle Umgebung (macOS und Linux)
+source env/bin/activate
